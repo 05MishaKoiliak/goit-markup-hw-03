@@ -205,3 +205,25 @@ body {
 .footer .studio-dark {
   color: #f4f4fd;
 }
+/*FlexBox style*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
