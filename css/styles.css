@@ -223,10 +223,12 @@ ul {
   box-sizing: border-box;
 }
 .container {
+  width: 1158px;
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 auto;
   padding: 0 15px;
+  gap: 40px;
 }
 img {
   display: block;
@@ -238,4 +240,9 @@ header {
 nav {
   display: flex;
   align-items: center;
+}
+.container-nav {
+}
+.link-logo {
+  margin-right: 76px;
 }
