@@ -242,7 +242,14 @@ nav {
   align-items: center;
 }
 .container-nav {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 .link-logo {
   margin-right: 76px;
+}
+.address {
+  display: flex;
+  gap: 40px;
 }
