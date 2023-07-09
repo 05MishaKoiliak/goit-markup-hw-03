@@ -34,17 +34,18 @@ img {
 .nav-list {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 .nav-list .list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-list .link-logo {
   margin-right: 76px;
 }
-
+.nav-list,
+.header-item {
+  padding: 24px 0;
+}
 .container {
   display: flex;
   width: 1158px;
