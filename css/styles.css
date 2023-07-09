@@ -37,15 +37,13 @@ img {
 }
 .nav-list .list {
   display: flex;
+  padding: 24px 0;
   gap: 40px;
 }
 .nav-list .link-logo {
   margin-right: 76px;
 }
-.nav-list,
-.header-item {
-  padding: 24px 0;
-}
+
 .container {
   display: flex;
   width: 1158px;
