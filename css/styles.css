@@ -13,15 +13,41 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
   margin: 0;
-  padding: 0;
+}
+ul,
+ol {
+  margin: 0;
 }
 img {
   display: block;
 }
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
 
+.address .list {
+  display: flex;
+  gap: 40px;
+}
+.nav-list .list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 24px 0;
+}
+.nav-list .link-logo {
+  margin-right: 76px;
+}
+
+.container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+}
+
+/*end flex...*/
 /*header*/
 .links {
   font-weight: 500;
