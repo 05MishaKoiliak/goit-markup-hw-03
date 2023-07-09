@@ -1,11 +1,27 @@
 :root {
   --background-color: #ffffff;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+/*FlexBox style*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+
 /*header*/
 .links {
   font-weight: 500;
@@ -204,52 +220,4 @@ body {
 /*footer*/
 .footer .studio-dark {
   color: #f4f4fd;
-}
-/*FlexBox style*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-.container {
-  width: 1158px;
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 auto;
-  padding: 0 15px;
-  gap: 40px;
-}
-img {
-  display: block;
-}
-header {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-}
-nav {
-  display: flex;
-  align-items: center;
-}
-.container-nav {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0;
-}
-.link-logo {
-  margin-right: 76px;
-}
-.address {
-  display: flex;
-  gap: 40px;
 }
