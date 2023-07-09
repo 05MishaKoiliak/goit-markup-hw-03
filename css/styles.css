@@ -23,28 +23,33 @@ ol {
 img {
   display: block;
 }
+/*header flex*/
 .header-section {
   border-bottom: 1px solid #e7e9fc;
 }
-
 .address .list {
   display: flex;
   gap: 40px;
 }
-.nav-list .list {
+.nav-list {
   display: flex;
   align-items: center;
-  gap: 40px;
   padding: 24px 0;
 }
+.nav-list .list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+} /*
 .nav-list .link-logo {
   margin-right: 76px;
-}
+}*/
 
 .container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
+  margin: 0;
 }
 
 /*end flex...*/
