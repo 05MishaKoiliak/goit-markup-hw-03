@@ -40,16 +40,17 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-} /*
+}
 .nav-list .link-logo {
   margin-right: 76px;
-}*/
+}
 
 .container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0;
+  margin: 0 auto;
 }
 
 /*end flex...*/
