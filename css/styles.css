@@ -84,6 +84,14 @@ img {
 .section-two {
   padding: 120px 0;
 }
+.section-two .item {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+}
+.section-two .title {
+  margin-bottom: 8px;
+}
 /*end flex...*/
 /*header*/
 .links {
