@@ -101,10 +101,17 @@ img {
   padding-bottom: 120px;
 }
 .section-three .title-foto {
-  margin-bottom: 72px;
   text-align: center;
+
+  margin-bottom: 72px;
 }
-.section-three
+.section-three .list {
+  display: flex;
+  gap: 24px;
+}
+.list-img {
+  width: calc((100% - 48px) / 3);
+}
 /*end flex...*/
 /*header*/
 .links {
