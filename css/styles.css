@@ -84,7 +84,7 @@ img {
 .section-two {
   padding: 120px 0;
 }
-.section-two .item {
+.section-two .list {
   display: flex;
   gap: 24px;
   width: calc((100% - 72px) / 4);
