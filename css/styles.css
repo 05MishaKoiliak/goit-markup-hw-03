@@ -94,6 +94,8 @@ img {
 }
 .section-two .title {
   margin-bottom: 8px;
+}
+.item-two {
   width: calc((100% - 72px) / 4);
 }
 /*section 3*/
