@@ -30,7 +30,6 @@ img {
 .address .list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .nav-list {
   display: flex;
@@ -38,7 +37,7 @@ img {
 }
 .nav-list .list {
   display: flex;
-
+  padding: 24px 0;
   gap: 40px;
   margin-right: 332px;
 }
