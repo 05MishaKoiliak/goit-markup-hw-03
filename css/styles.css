@@ -149,6 +149,25 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+/*portfolio flex*/
+.section-main .list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button-portfolio {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.section-foto .img-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 /*end flex...*/
 /*header*/
 .links {
