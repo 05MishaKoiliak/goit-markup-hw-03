@@ -116,7 +116,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.list-img {
+.section-three .list-img {
   width: calc((100% - 48px) / 3);
 }
 /*section 4*/
@@ -130,7 +130,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.tem-section .ten-staff {
+.container .ten-staff {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
