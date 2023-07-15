@@ -53,7 +53,7 @@ img {
   margin: 0;
   margin: 0 auto;
 }
-.header-section .header-list {
+.nav-list .header-list {
   padding: 24px 0;
 }
 /*section 1*/
@@ -127,9 +127,9 @@ img {
   display: flex;
   gap: 24px;
 }
-.ten-staff {
-  width: calc((100% - 72px) / 4);
+.tem-section .ten-staff {
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .tem-section .tem-list {
   padding: 32px 16px;
@@ -145,12 +145,41 @@ img {
 .footer {
   padding: 100px 0;
 }
-.footer .link-logo {
+.footer .link {
   display: inline-block;
   margin-bottom: 16px;
 }
 /*portfolio flex*/
-
+.section-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.section-main .list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.section-main .button-portfolio {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.section-main .img-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.section-main .link-img {
+  width: calc((100% - 48px) / 3);
+}
+.section-main .box-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 /*end flex...*/
 /*header*/
 .links {
