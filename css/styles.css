@@ -101,7 +101,7 @@ img {
 .section-two .title {
   margin-bottom: 8px;
 }
-.list .item-two {
+.section-two .item-two {
   width: calc((100% - 72px) / 4);
 }
 /*section 3*/
