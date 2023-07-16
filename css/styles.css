@@ -39,6 +39,7 @@ img {
 }
 .header-section .container {
   display: flex;
+  padding: 0 15px;
 }
 .address .list {
   display: flex;
@@ -199,6 +200,9 @@ img {
 }
 .box-info .portfolio-title {
   margin-bottom: 8px;
+}
+.link-img {
+  width: calc((100% - 48px) / 3);
 }
 /*end flex...*/
 /*header*/
