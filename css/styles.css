@@ -1,12 +1,15 @@
 :root {
   --background-color: #ffffff;
+  --border-bottom: 1px solid #e7e9fc;
 }
 /*FlexBox style*/
+/*
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+*/
 h1,
 h2,
 h3,
@@ -196,6 +199,7 @@ img {
 }
 /*end flex...*/
 /*header*/
+
 .links {
   font-weight: 500;
   font-size: 16px;
