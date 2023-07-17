@@ -153,7 +153,7 @@ img {
   background-color: white;
 }
 .tem-section .tem-list {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 .tem-list .title {
   text-align: center;
@@ -190,10 +190,11 @@ img {
 .section-main .button-portfolio {
   padding: 12px 24px;
   border-radius: 4px;
-}
-.button-portfolio {
-  border: 1px solid transparent;
   border: 1px solid #e7e9fc;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  border: transparent;
 }
 .section-main .img-list {
   display: flex;
