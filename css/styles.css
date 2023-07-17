@@ -191,11 +191,7 @@ img {
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 }
-.button-portfolio:hover,
-.button-portfolio:focus {
-  outline-color: transparent;
-  outline-style: solid;
-}
+
 .section-main .img-list {
   display: flex;
   flex-wrap: wrap;
@@ -214,6 +210,10 @@ img {
 
 .link-img {
   width: calc((100% - 48px) / 3);
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  border: 1px solid transparent;
 }
 /*end flex...*/
 /*header*/
