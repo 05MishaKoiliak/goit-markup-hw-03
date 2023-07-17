@@ -10,9 +10,7 @@
   box-sizing: border-box;
 }
 */
-ul {
-  padding: 0;
-}
+
 h1,
 h2,
 h3,
@@ -25,6 +23,7 @@ p {
 ul,
 ol {
   margin: 0;
+  padding: 0;
 }
 img {
   display: block;
@@ -127,8 +126,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.section-three .list-img {
-  width: calc((100% - 72px) / 4);
+.list-img {
+  width: calc((100% - 48px) / 3);
 }
 /*section 4*/
 .tem-staff {
