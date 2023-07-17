@@ -199,6 +199,7 @@ img {
 .section-main .box-info {
   padding: 32px 16px;
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 .box-info .portfolio-title {
   margin-bottom: 8px;
