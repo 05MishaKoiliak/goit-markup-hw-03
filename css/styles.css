@@ -30,8 +30,6 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 /*header flex*/
 .header-section {
@@ -198,12 +196,13 @@ img {
 
 .section-main .box-info {
   padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .box-info .portfolio-title {
   margin-bottom: 8px;
 }
+
 .link-img {
   width: calc((100% - 48px) / 3);
 }
