@@ -183,7 +183,8 @@ img {
 .section-main .button-portfolio {
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid #e7e9fc transparent;
+  border: 1px solid #e7e9fc;
+  border: transparent;
 }
 .section-main .img-list {
   display: flex;
