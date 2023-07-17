@@ -193,7 +193,8 @@ img {
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  border: transparent;
+  outline-color: transparent;
+  outline-style: solid;
 }
 .section-main .img-list {
   display: flex;
