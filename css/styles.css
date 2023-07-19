@@ -193,6 +193,9 @@ img {
   justify-content: center;
   gap: 24px;
 }
+.list-buttom {
+  margin-bottom: 72px;
+}
 .section-main .button-portfolio {
   padding: 12px 24px;
   border-radius: 4px;
